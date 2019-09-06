@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.HL {
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.CP {
+    font-family: Calibri;
+    font-size: 10rem;
+    color: #F8814D;
+    margin-bottom: .2em;
+}
+
+.welcome {
+    font-family: Calibri;
+    font-size: 5rem;
+    color: #F8814D;
+    font-weight: 600;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.image {
+    background-image: url(amastrand.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A5ADB7;
+}
+
+#navbar a {
+    color: black;
+    width: 33.33%;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    background-color: #7B8693;
+    margin: 0;
+
+}
+
+#navbar a:hover {
+    color: white;
+    width: 33.33%;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    background-color: #585d64;
+
+}
+
+.Basic {
+    text-align: center;
+    padding: 3em;
+}
+
+.Web {
+    background-color: #FFD159;
+}
+
+.Animation {
+
+    background-color: #FFAD52;
+}
+
+.Content {
+    background-color: #F8814D;
+
+}
+
+.UX {
+    background-color: #ED6544;
+}
+
+
+.OtherProjects {
+    background-color: #FFAD52;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+
+}
+
+
+.OtherProjects .HL {
+    grid-column: 1/-1;
+
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    background: #A5ADB7;
+    padding: 1em;
+    width: 200px;
+    height: 150px;
+
+}
+
+
+footer {
+    padding-top: 10px;
+    background-color: #7B8693;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Photo {
+    background-image: url(amastrand.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 1em;
+}
+
+.about {
+    background-color: #FFAD52;
+
+}
+
+.aboutMe {
+    padding: 2em;
+    text-align: center;
+}
+
+.me {
+    max-width: 100%;
+}
+
+@media all and (max-width: 900px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .OtherProjects {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #c74829;
+
+    }
+
+    .CP {
+        font-size: 5rem;
+    }
+
+    .welcome {
+        font-size: 2.5rem;
+    }
+}
