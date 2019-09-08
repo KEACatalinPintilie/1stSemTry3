@@ -21,16 +21,24 @@ h2 {
 
 .CP {
     font-family: Calibri;
-    font-size: 10rem;
-    color: #F8814D;
-    margin-bottom: .2em;
+    font-size: 9rem;
+    color: #7B8693;
+    margin-top: 75px;
+    line-height: .7;
+
+
 }
 
 .welcome {
     font-family: Calibri;
-    font-size: 5rem;
-    color: #F8814D;
+    font-size: 4rem;
+    color: #7B8693;
     font-weight: 600;
+    line-height: .7;
+    position: absolute;
+    bottom: 5px;
+    margin-bottom: 0;
+
 }
 
 p {
@@ -40,6 +48,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 
 .image {
     background-image: url(amastrand.jpg);
@@ -55,7 +64,7 @@ p {
 }
 
 #navbar a {
-    color: black;
+    color: white;
     width: 33.33%;
     text-align: center;
     padding: 14px;
@@ -66,7 +75,7 @@ p {
 }
 
 #navbar a:hover {
-    color: white;
+    color: #FFAD52;
     width: 33.33%;
     text-align: center;
     padding: 14px;
@@ -127,6 +136,7 @@ p {
 
 
 footer {
+    height: 90px;
     padding-top: 10px;
     background-color: #7B8693;
     color: white;
@@ -134,12 +144,20 @@ footer {
     font-size: 18px;
 }
 
+.icon {
+    width: 32px;
+    height: auto;
+
+
+}
 .Photo {
     background-image: url(amastrand.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     padding: 1em;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .about {
@@ -177,5 +195,7 @@ footer {
 
     .welcome {
         font-size: 2.5rem;
+        margin-top: 290px;
+
     }
 }
