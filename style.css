@@ -195,7 +195,11 @@ footer {
 
     .welcome {
         font-size: 2.5rem;
-        margin-top: 290px;
+
+    }
+
+    .Photo {
+        padding: 0;
 
     }
 }
